@@ -88,10 +88,3 @@ def auto_checkin(tel, id):
 
 if auto_checkin(__这边填你的手机号__, __这边填你的学号__):
     print("签到成功")
-
-#如何使用
-#将上面的手机号和学号修改好，例如auto_checkin(12345678901, 21122222)
-#然后需要安装一个python环境并配置好环境变量
-#然后在当前目录下打开cmd
-#输入python checkin.py
-#查看输出信息为签到成功的话就成功了
